@@ -1,0 +1,19 @@
+{
+  "name": "express-docker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watch:server": "nodemon src/app.js",
+    "start:docker": "docker compose -f ../docker-compose.yml up --build"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.1",
+    "mongoose": "^8.8.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
